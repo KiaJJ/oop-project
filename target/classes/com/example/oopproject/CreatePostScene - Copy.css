@@ -1,0 +1,80 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-text-fill: white;
+}
+.button{
+    -fx-text-fill: white;
+}
+#backAnchorPane{
+    -fx-background-image: url("darkBack3.jpg");
+    -fx-background-size: 100% 100%;
+}
+#anchorPane{
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 20px;
+}
+#createPost{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(86, 71, 154);
+    -fx-background-radius: 10px;
+}
+#createPost:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#back{
+    -fx-background-color:rgb(189,59,251,0);
+    -fx-background-image: url("dark-back-icon.png");
+    -fx-background-size: 50% 50%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 10px;
+    -fx-background-position: center;
+}
+#postCaption{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(160,160,160,0.5);
+    -fx-background-radius: 10px;
+    -fx-text-fill: white;
+}
+.text-area .scroll-bar{
+    -fx-opacity: 0;
+}
+#postCaption:focused{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+#postImageUrl{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-background-radius: 10px;
+}
+#postImageUrl:focused{
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#userNameHeader{
+    -fx-font-family:Poppins;
+}
+#passwordHeader{
+    -fx-font-family:Poppins;
+}
+#attach{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(86, 71, 154);
+    -fx-background-radius: 10px;
+}
+#attach:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}

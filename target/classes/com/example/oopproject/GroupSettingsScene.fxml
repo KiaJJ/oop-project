@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="backAnchorPane" prefHeight="700.0" prefWidth="575.0" stylesheets="@GroupSettingsScene%20-%20Copy.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.GroupSettingsSceneController">
+   <children>
+      <Label alignment="CENTER" layoutX="213.0" layoutY="5.0" prefHeight="42.0" prefWidth="160.0" text="Group Settings">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="145.0" layoutY="73.0" prefHeight="36.0" prefWidth="99.0" text="Group Name :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="groupName" layoutX="276.0" layoutY="73.0" prefHeight="36.0" prefWidth="150.0" />
+      <Label layoutX="70.0" layoutY="179.0" prefHeight="42.0" prefWidth="190.0" text="Click To Remove Member ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="330.0" layoutY="179.0" prefHeight="42.0" prefWidth="174.0" text="Click To Ban Member ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ListView fx:id="blockMember" fixedCellSize="40.0" layoutX="65.0" layoutY="221.0" prefHeight="469.0" prefWidth="200.0" />
+      <ListView fx:id="banMember" fixedCellSize="40.0" layoutX="305.0" layoutY="221.0" prefHeight="470.0" prefWidth="200.0" />
+      <Button fx:id="back" layoutX="6.0" layoutY="1.0" mnemonicParsing="false" onAction="#switchToGroupChatScene" prefHeight="26.0" prefWidth="29.0" />
+      <Button fx:id="changeName" layoutX="234.0" layoutY="124.0" mnemonicParsing="false" onAction="#changeGroupName" prefHeight="26.0" prefWidth="107.0" text="Change Name" />
+   </children>
+</AnchorPane>

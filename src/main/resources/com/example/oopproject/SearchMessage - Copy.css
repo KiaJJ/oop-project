@@ -1,0 +1,48 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-font-family: Poppins;
+    -fx-text-fill: white;
+}
+.list-view .list-cell{
+    -fx-font-family: Poppins;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-background-color: #727272;
+    -fx-border-color: #727272;
+}
+#anchorPane{
+    -fx-background-image: url("darkBack2.jpg");
+    -fx-background-size: 100% 100%;
+}
+#searchedMessage{
+    -fx-background-color: rgba(160,160,160,0.4);
+    -fx-background-radius: 10px;
+    -fx-font-family:Poppins;
+    -fx-text-fill: white;
+}
+.text-area .scroll-bar{
+    -fx-opacity: 0;
+}
+#searchedMessage:focused{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+#searchButton{
+    -fx-background-color:rgb(255,255,255,0);
+    -fx-background-image: url("dark-search-icon.png");
+    -fx-background-size: 50% 50%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 100%;
+    -fx-background-position: center;
+}

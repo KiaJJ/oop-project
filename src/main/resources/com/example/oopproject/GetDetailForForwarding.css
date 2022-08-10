@@ -1,0 +1,62 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-font-family:Poppins;
+}
+#backAnchorPane{
+    -fx-background-image: url("Back4.jfif");
+    -fx-background-size:cover;
+}
+#send{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(181, 160, 252);
+    -fx-background-radius: 10px;
+}
+#send:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#signUp{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(128,96,229);
+    -fx-background-radius: 10px;
+}
+#signUp:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#forgotPassword{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(79,194,236);
+    -fx-background-radius: 10px;
+}
+#forgotPassword:hover{
+    -fx-background-color: rgb(57, 185, 224);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#username{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-background-radius: 10px;
+}
+#username:focused{
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#password{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-background-radius: 10px;
+}
+#password:focused{
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#userNameHeader{
+    -fx-font-family:Poppins;
+}
+#passwordHeader{
+    -fx-font-family:Poppins;
+}

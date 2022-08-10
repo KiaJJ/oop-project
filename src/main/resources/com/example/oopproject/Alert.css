@@ -1,0 +1,26 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.dialogPane{
+    -fx-background-color:linear-gradient(to right, rgba(83,164,232,0.5),rgba(189,59,251,0.5) /*rgba(209,170,255,1)*/);
+}
+.dialogPane >.header-panel{
+    -fx-background-color:linear-gradient(to right, rgba(83,164,232,0.5),rgba(189,59,251,0.5) /*rgba(209,170,255,1)*/);
+}
+.dialogPane >*.content.label{
+    -fx-font-family: Poppins;
+}
+.dialogPane>.header-panel *.label{
+    -fx-font-family: Poppins;
+}
+.dialogPane>*.button-bar *.button{
+    -fx-font-family: Poppins;
+    -fx-background-color: rgb(181, 160, 252);
+    -fx-background-radius: 10px;
+}
+.dialogPane>*.button-bar *.button:hover{
+    -fx-font-family: Poppins;
+    -fx-background-color: rgb(128,96,229);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}

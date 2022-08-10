@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" stylesheets="@CommentTemplate.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.CommentTemplatePrimeController">
+   <children>
+      <VBox prefWidth="470.0">
+         <children>
+            <HBox>
+               <children>
+                  <Label fx:id="commenter" text="Label" textFill="BLUE">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="timeCommented" text="Label" textFill="RED">
+                     <HBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Button fx:id="likeButton" mnemonicParsing="false" onAction="#likeComment" prefHeight="26.0" prefWidth="26.0">
+                     <HBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label fx:id="likes" text="100 Likes" textFill="BLUE">
+                     <HBox.margin>
+                        <Insets left="16.0" top="8.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="comments" text="100 Comments" textFill="BLUE">
+                     <HBox.margin>
+                        <Insets left="270.0" top="8.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <Label fx:id="commentText" text="gffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff" wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <HBox>
+               <children>
+                  <TextArea fx:id="comment" prefHeight="39.0" prefWidth="410.0" promptText="Type Your Comment Here :" wrapText="true">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextArea>
+                  <Button fx:id="sendButton" mnemonicParsing="false" onAction="#commentOnComment" prefHeight="40.0" prefWidth="46.0">
+                     <HBox.margin>
+                        <Insets top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

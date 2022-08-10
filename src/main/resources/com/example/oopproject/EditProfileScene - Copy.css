@@ -1,0 +1,50 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-text-fill: white;
+}
+.button{
+    -fx-text-fill: white;
+}
+#backAnchorPane{
+    -fx-background-image: url("darkBack4.png");
+    -fx-background-size: 100% 100%;
+}
+#mainAnchorPane{
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 20px;
+}
+.button{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(128,96,229);
+    -fx-background-radius: 10px;
+}
+.button:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#userName{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgba(160,160,160,0.4);
+    -fx-background-radius: 10px;
+    -fx-text-fill: white;
+}
+#userName:focused{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#userNameHeader{
+    -fx-font-family:Poppins;
+}
+#passwordHeader{
+    -fx-font-family:Poppins;
+}
+#back{
+    -fx-background-color:rgb(189,59,251,0);
+    -fx-background-image: url("back-icon.png");
+    -fx-background-size: 30 80%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 10px;
+    -fx-background-position: center;
+}

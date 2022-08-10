@@ -1,0 +1,19 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-font-family: Poppins;
+    -fx-text-fill: white;
+}
+.list-view .list-cell{
+    -fx-font-family: Poppins;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-background-color: #727272;
+    -fx-border-color: #727272;
+}
+#anchorPane{
+    -fx-background-image: url("darkBack2.jpg");
+    -fx-background-size: cover;
+}

@@ -1,0 +1,66 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-font-family:Poppins;
+}
+.scroll-pane{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar{
+    -fx-opacity: 0;
+}
+.scroll-pane > .viewport {
+    -fx-background: rgba(255,255,255,0);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border:none;
+}
+#backAnchorPane {
+    -fx-background-image: url("Back2.jpg");
+    -fx-background-size:100% 100%;
+}
+.GridPane{
+    -fx-background-color: rgba(255,255,255,0.5);
+    -fx-background-radius: 30px;
+}
+#backButton{
+    -fx-background-color:rgb(189,59,251,0);
+    -fx-background-image: url("back-icon.png");
+    -fx-background-size: 30 80%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 10px;
+    -fx-background-position: center;
+}
+#blockButton,#unBlockButton,#follow{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(181, 160, 252);
+    -fx-background-radius: 10px;
+}
+#blockButton:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#unBlockButton:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#follow:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+.menu-button{
+    -fx-background-color:rgb(139, 116, 255);
+    -fx-background-radius: 10px;
+}
+.menu-item{
+    -fx-background-color:rgb(255,255,255);
+}
+#header{
+    -fx-background-radius: 10px;
+    -fx-background-color:linear-gradient(to left, rgba(83,164,232,0.5),rgba(189,59,251,0.5));
+}
+#cirlce{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}

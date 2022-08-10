@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="backAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="451.0" stylesheets="@SearchUsernameForPrivateChat%20-%20Copy.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.SearchUsernameForPrivateChatController">
+   <children>
+      <TextField fx:id="searchedUsername" layoutX="74.0" layoutY="64.0" prefHeight="38.0" prefWidth="301.0" promptText="Type The Username You Want :" />
+      <Button fx:id="searchButton" layoutX="332.0" layoutY="67.0" mnemonicParsing="false" onAction="#searchUsername" prefHeight="32.0" prefWidth="37.0" />
+      <ListView fx:id="followers" fixedCellSize="50.0" layoutX="85.0" layoutY="118.0" prefHeight="568.0" prefWidth="281.0" />
+   </children>
+</AnchorPane>

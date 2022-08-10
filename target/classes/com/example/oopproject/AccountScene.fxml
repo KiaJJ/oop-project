@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="backAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="785.0" stylesheets="@AccountScene%20-%20Copy.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.AccountSceneController">
+   <children>
+      <HBox fx:id="header" layoutX="55.0" layoutY="20.0" prefHeight="200.0" prefWidth="675.0">
+         <children>
+            <VBox prefWidth="170.0">
+               <children>
+                  <Label text="Username :">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="20.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="userName" text="armin.mad" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="20.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="fullName" text="armin dehghan" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="20.0" top="25.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Followings :">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="followingsNum" text="1234" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets left="80.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Followers :">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="followersNum" text="12345" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </VBox>
+            <Circle fx:id="circle" fill="WHITE" radius="80.0" stroke="TRANSPARENT" strokeType="INSIDE">
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+            </Circle>
+         </children>
+      </HBox>
+      <ScrollPane layoutX="35.0" layoutY="239.0" prefHeight="546.0" prefWidth="514.0">
+         <content>
+            <GridPane fx:id="gridPosts">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+            </GridPane>
+         </content>
+      </ScrollPane>
+      <Button fx:id="backButton" layoutX="8.0" layoutY="7.0" mnemonicParsing="false" onAction="#switchToHomeScene" prefHeight="26.0" prefWidth="26.0" />
+      <MenuButton fx:id="followersMenu" layoutX="568.0" layoutY="243.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" text="Followers" textFill="WHITE" />
+      <MenuButton fx:id="followingsMenu" layoutX="676.0" layoutY="243.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" text="Followings" />
+      <Button fx:id="views" layoutX="618.0" layoutY="727.0" mnemonicParsing="false" onAction="#showDailyViews" prefHeight="26.0" prefWidth="116.0" text="Account Views">
+         <font>
+            <Font name="Poppins Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="editAccount" layoutX="618.0" layoutY="687.0" mnemonicParsing="false" onAction="#switchToEditProfileScene" prefHeight="26.0" prefWidth="116.0" text="Edit Account">
+         <font>
+            <Font name="Poppins Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="themeButton" layoutX="618.0" layoutY="647.0" mnemonicParsing="false" onAction="#changeTheme" prefHeight="26.0" prefWidth="116.0" text="Switch Theme" />
+   </children>
+</AnchorPane>

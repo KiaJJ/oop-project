@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="backAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" stylesheets="@CreatePostScene%20-%20Copy.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.CreatePostSceneController">
+   <children>
+      <AnchorPane fx:id="anchorPane" layoutX="150.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="500.0">
+         <children>
+            <Label alignment="CENTER" layoutX="118.0" layoutY="27.0" prefHeight="48.0" prefWidth="264.0" text="Add New Post" textAlignment="CENTER">
+               <font>
+                  <Font name="Poppins Bold" size="25.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="postCaption" layoutX="30.0" layoutY="115.0" prefHeight="147.0" prefWidth="434.0" promptText="Type Your Caption Here :" wrapText="true" />
+            <Button fx:id="createPost" layoutX="197.0" layoutY="344.0" mnemonicParsing="false" onAction="#switchToHomeScene" prefHeight="36.0" prefWidth="100.0" text="Create" />
+            <Button fx:id="attach" layoutX="197.0" layoutY="300.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="100.0" text="+Add Picture" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="back" layoutY="1.0" mnemonicParsing="false" onAction="#switchToHomeScene2" prefHeight="36.0" prefWidth="38.0" />
+   </children>
+</AnchorPane>

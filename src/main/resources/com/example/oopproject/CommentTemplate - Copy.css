@@ -1,0 +1,89 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-text-fill: white;
+}
+#comments,#timeCommented,#likes,#commenter{
+    -fx-font-family:Poppins;
+}
+#timeCommented{
+    -fx-font-family:Poppins;
+    -fx-text-fill: rgb(166, 166, 166);
+}
+#likeButton{
+    -fx-background-color:rgb(255,255,255,0);
+    -fx-background-image: url("like-button.png");
+    -fx-background-size: 50% 50%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 100%;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+#Ad{
+    -fx-background-color:rgb(255,255,255,0);
+    -fx-background-image: url("dark-ad-icon.png");
+    -fx-background-size: 50% 50%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 100%;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+#likes{
+    -fx-text-fill:rgb(166,166,166);
+}
+#comments{
+    -fx-text-fill:rgb(166,166,166);
+}
+#detail{
+    -fx-background-color:rgb(255,255,255,0);
+    -fx-background-image: url("dark-details-icon.png");
+    -fx-background-size: 50% 50%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 100%;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+#img{
+    -fx-background-radius: 10;
+}
+#sendButton{
+    -fx-background-color:rgb(255,255,255,0);
+    -fx-background-image: url("dark-send-icon.png");
+    -fx-background-size: 50% 50%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 100%;
+    -fx-background-position: center;
+}
+
+#comment{
+    -fx-background-color: rgb(220, 220, 220);
+    -fx-background-radius: 100px;
+    -fx-font-family:Poppins;
+}
+.text-area .scroll-bar{
+    -fx-opacity: 0;
+}
+#comment:focused{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+#anchorPane{
+    -fx-background-color: rgb(30,30,30,0.5);
+    -fx-background-radius: 20px;
+}
+#backAnchorPane{
+    -fx-background-color: rgba(255 , 255 , 255, 0);
+    -fx-background-radius: 20px;
+}
+
+

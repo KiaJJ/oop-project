@@ -1,0 +1,9 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+#Likers .list-cell{
+    -fx-alignment: center;
+    -fx-font-size: 15;
+    -fx-font-family:Poppins;
+}

@@ -1,0 +1,22 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-font-family:Poppins;
+}
+#anchorPane {
+    /*-fx-background-color: rgba(4,168,244,.7);*/
+    -fx-background-color: rgb(54, 33, 80);
+    -fx-background-radius: 8px ;
+}
+#senderName{
+    -fx-text-fill: rgb(4,168,244);
+}
+#time{
+    -fx-text-fill: rgb(143, 188, 192);
+}
+#message{
+    -fx-font-family: "Microsoft YaHei";
+    -fx-text-fill:white;
+}

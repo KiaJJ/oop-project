@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="737.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.BusinessPostDetailController">
+   <children>
+      <ListView fx:id="date" layoutX="64.0" layoutY="83.0" prefHeight="262.0" prefWidth="198.0" />
+      <ListView fx:id="likes" layoutX="262.0" layoutY="83.0" prefHeight="262.0" prefWidth="106.0" />
+      <ListView fx:id="views" layoutX="368.0" layoutY="83.0" prefHeight="262.0" prefWidth="106.0" />
+      <Label alignment="CENTER" layoutX="102.0" layoutY="34.0" prefHeight="40.0" prefWidth="121.0" text="Day">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="285.0" layoutY="34.0" prefHeight="40.0" prefWidth="60.0" text="Likes">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="382.0" layoutY="34.0" prefHeight="40.0" prefWidth="78.0" text="Views">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <BarChart fx:id="chart" layoutX="26.0" layoutY="371.0" prefHeight="352.0" prefWidth="471.0">
+         <xAxis>
+            <CategoryAxis fx:id="days" label="Date" side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis fx:id="numbers" side="LEFT" />
+         </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

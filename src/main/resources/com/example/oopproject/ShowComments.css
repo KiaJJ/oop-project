@@ -1,0 +1,16 @@
+.scroll-pane{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar{
+    -fx-opacity: 0;
+}
+.scroll-pane > .viewport {
+    -fx-background: rgba(255,255,255,0);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border:none;
+}
+#backAnchorPane {
+    -fx-background-image: url("Back2.jpg");
+    -fx-background-size:cover;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="backAnchorPane" prefHeight="650.0" prefWidth="400.0" stylesheets="@MemberListScene%20-%20Copy.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.MemberListSceneController">
+   <children>
+      <ListView fx:id="memberList" fixedCellSize="50.0" layoutX="100.0" layoutY="82.0" prefHeight="524.0" prefWidth="200.0" />
+      <Label alignment="CENTER" layoutX="82.0" layoutY="39.0" prefHeight="27.0" prefWidth="234.0" text="Click On The User To Add Member" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

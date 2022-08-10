@@ -1,0 +1,43 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.button{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(126,109,239);
+    -fx-background-radius: 10px;
+}
+.button:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+.text-field{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-background-radius: 10px;
+}
+.text-field:focused{
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#backAnchorPane{
+    -fx-background-image: url("LoginBackGround.jpg");
+}
+#mainAnchorPane{
+    -fx-background-color: rgba(255,255,255,0.5);
+    -fx-background-radius: 20px;
+}
+.label{
+    -fx-font-family:Poppins;
+}
+.menu-button{
+    -fx-background-color: rgb(126,109,239);
+    -fx-background-radius: 10px;
+}
+.menu-item{
+    -fx-background-color: rgb(255,255,255);
+
+}
+.menu-item:focused{
+    -fx-background-color: rgb(34, 153, 180);
+}

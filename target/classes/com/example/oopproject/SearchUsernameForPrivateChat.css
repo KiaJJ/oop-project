@@ -1,0 +1,48 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+#followers .list-cell{
+    -fx-alignment: center;
+    -fx-font-size: 15;
+}
+#backAnchorPane{
+    -fx-background-image: url("Back4.jfif");
+    -fx-background-size: cover;
+}
+#searchedUsername{
+    -fx-background-radius: 40px;
+    -fx-background-color: rgb(220, 220, 220);
+    -fx-font-family:Poppins;
+    /*-fx-font-style:rgb(0,0,0);*/
+    /*-fx-prompt-text-fill:black;*/
+}
+#searchedUsername:focused{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 0);
+}
+#searchButton{
+    -fx-background-color:rgb(255,255,255,0);
+    -fx-background-image: url("search_icon.png");
+    -fx-background-size: 50% 50%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 100%;
+    -fx-background-position: center;
+}
+#followers{
+    -fx-background-color: rgb(255,255,255,.4);
+    -fx-background-radius: 10px ;
+    -fx-padding: 20px;
+
+}
+.list-cell {
+    -fx-padding: 2px ;
+    -fx-background-color: transparent, -fx-background ;
+    -fx-background-radius: 10px;
+    -fx-background-insets: 0px, 5px ;
+}
+
+.list-cell:empty {
+    -fx-padding: 2px ;
+    -fx-background-color: transparent ;
+    -fx-background-insets: 0 ;
+}

@@ -1,0 +1,8 @@
+#sendButton{
+    -fx-background-color:rgb(255,255,255,0);
+    -fx-background-image: url("dark-reply-icon.png");
+    -fx-background-size: 50% 50%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 100%;
+    -fx-background-position: center;
+}

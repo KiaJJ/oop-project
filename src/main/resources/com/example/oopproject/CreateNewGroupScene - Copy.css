@@ -1,0 +1,79 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-text-fill: white;
+}
+.button{
+    -fx-text-fill: white;
+}
+#backAnchorPane{
+    -fx-background-image: url("darkBack3.jpg");
+    -fx-background-size: 100% 100%;
+}
+#anchorPane{
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 20px;
+}
+#addMember{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(86, 71, 154);
+    -fx-background-radius: 10px;
+}
+#addMember:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#submit{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(86, 71, 154);
+    -fx-background-radius: 10px;
+}
+#submit:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#forgotPassword{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(79,194,236);
+    -fx-background-radius: 10px;
+}
+#forgotPassword:hover{
+    -fx-background-color: rgb(57, 185, 224);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#groupName{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(160,160,160,0.5);
+    -fx-background-radius: 10px;
+    -fx-text-fill: white;
+}
+#groupName:focused{
+    -fx-background-color: rgb(160,160,160,0.5);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#ImagUrl{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-background-radius: 10px;
+}
+#ImagUrl:focused{
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+#userNameHeader{
+    -fx-font-family:Poppins;
+}
+#passwordHeader{
+    -fx-font-family:Poppins;
+}
+#attach{
+    -fx-font-family:Poppins;
+    -fx-background-color: rgb(86, 71, 154);
+    -fx-background-radius: 10px;
+}
+#attach:hover{
+    -fx-background-color: rgb(135,102,243);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}

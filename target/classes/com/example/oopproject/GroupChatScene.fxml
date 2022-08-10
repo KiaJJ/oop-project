@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="418.0" stylesheets="@GroupChatScene%20-%20Copy.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.GroupChatSceneController">
+   <children>
+      <HBox fx:id="searchBar" prefHeight="22.0" prefWidth="418.0">
+         <children>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#switchToHomeScene" prefHeight="26.0" prefWidth="40.0">
+               <HBox.margin>
+                  <Insets left="3.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="search" mnemonicParsing="false" onAction="#searchMessage" prefHeight="26.0" prefWidth="30.0">
+               <HBox.margin>
+                  <Insets left="335.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox fx:id="header" prefHeight="77.0" prefWidth="418.0">
+         <children>
+            <Circle fx:id="circle" fill="WHITE" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Circle>
+            <Label fx:id="name" alignment="CENTER" prefHeight="104.0" prefWidth="203.0" text="Niggas">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="memberButton" mnemonicParsing="false" onAction="#showMembers" prefHeight="50.0" prefWidth="60.0">
+               <HBox.margin>
+                  <Insets top="18.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="add" mnemonicParsing="false" onAction="#addMember" prefHeight="50.0" prefWidth="50.0">
+               <HBox.margin>
+                  <Insets top="18.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="settingsButton" mnemonicParsing="false" onAction="#groupSettings" prefHeight="50.0" prefWidth="45.0">
+               <HBox.margin>
+                  <Insets top="18.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <ScrollPane fx:id="scrollChat" prefHeight="514.0" prefWidth="453.0">
+         <content>
+            <VBox fx:id="vbox" maxWidth="400.0" prefHeight="0.0" prefWidth="400.0" />
+         </content>
+      </ScrollPane>
+      <AnchorPane fx:id="sendBar" prefHeight="53.0" prefWidth="418.0">
+         <children>
+            <Button fx:id="attachButton" layoutX="325.0" layoutY="3.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" />
+            <TextArea fx:id="typingMessage" layoutX="6.0" layoutY="3.0" prefHeight="46.0" prefWidth="326.0" promptText="Type Your Message Here :" />
+            <Button fx:id="sendButton" layoutX="371.0" layoutY="3.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="45.0" prefWidth="45.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

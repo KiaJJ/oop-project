@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Likers" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.ShowLikesPrimeController">
+   <children>
+      <ListView fx:id="likersList" prefHeight="200.0" prefWidth="200.0" stylesheets="@ShowLikesPrime.css" />
+   </children>
+</AnchorPane>

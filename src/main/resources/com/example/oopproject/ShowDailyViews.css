@@ -1,0 +1,15 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-font-family: Poppins;
+}
+.list-view .list-cell{
+    -fx-font-family: Poppins;
+    -fx-alignment: center;
+}
+#anchorPane{
+    -fx-background-image: url("back2.jpg");
+    -fx-background-size: cover;
+}

@@ -1,0 +1,26 @@
+@font-face {
+    -fx-font-family:Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+.label{
+    -fx-font-family:Poppins;
+}
+#anchorPane {
+    /*-fx-background-color: rgba(4,168,244,.7);*/
+    -fx-background-image: url("darkBack2.jpg");
+    -fx-background-size: cover;
+}
+#messageText{
+    -fx-font-family: Poppins;
+    -fx-background-color: rgb(30,30,30,0.5);
+    -fx-background-radius: 10px;
+    -fx-text-fill: white;
+}
+#back{
+    -fx-background-color:rgb(189,59,251,0);
+    -fx-background-image: url("back-icon.png");
+    -fx-background-size: 30 80%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 10px;
+    -fx-background-position: center;
+}
